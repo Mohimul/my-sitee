@@ -1,0 +1,57 @@
+ .navbar {
+
+     background-color: aquamarine;
+     text-align: center;
+     font-size: 1.2rem;
+     padding: 1% 5%;
+
+ }
+
+ .navbar a {
+
+     text-decoration: none;
+     padding: 1% 2%;
+     cursor: pointer;
+ }
+
+ .container {
+
+     display: inline;
+     position: relative;
+ }
+
+ .content a {
+
+
+     display: block;
+      
+
+ }
+
+ .content {
+
+     position: absolute;
+     top: 32px;
+     right: 0px;
+     background-color: aquamarine;
+     min-width: 110px;
+      
+     display: none;
+     text-align: center;
+      
+
+ }
+
+ .container:hover .content {
+
+     display: block;
+ }
+
+ .content a:hover {
+     background-color: gray;
+ }
+ .content a {
+
+
+    padding: 10px;
+ }

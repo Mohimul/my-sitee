@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+  <title>practice</title>
+
+  <style>
+
+.navbar {
+
+background-color: aquamarine;
+text-align: center;
+font-size: 1.2rem;
+padding: 1% 5%;
+
+}
+
+.navbar a {
+
+text-decoration: none;
+padding: 1% 2%;
+cursor: pointer;
+transition: 0.25s ;
+}
+
+.container {
+
+display: inline;
+position: relative;
+}
+
+.content a {
+
+
+display: block;
+ 
+
+}
+
+.content {
+
+position: absolute;
+top: 32px;
+right: 0px;
+background-color: aquamarine;
+min-width: 110px;
+ 
+display: none;
+text-align: center;
+ 
+
+}
+
+.container:hover .content {
+
+display: block;
+}
+
+.content a:hover {
+background-color: gray;
+}
+.content a {
+
+
+padding: 10px;
+}
+
+ #p{
+
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  right: 50%;
+ }
+ .navbar a:hover{
+
+
+  background-color: rgb(138, 120, 155);
+  color: blue;
+ }
+
+
+
+
+
+  </style>
+</head>
+
+<body>
+
+
+
+<div class="navbar">
+<a href="#">HOME</a>
+
+<div class="container">
+
+<a href="#">EMAIL</a>
+<div class="content">
+
+<a href="#">FACEBOOK</a>
+<a href="#">CONTACT </a>
+
+</div>
+
+</div>
+
+<a href="#">ABOUT ME</a>
+<a href="#">SERVICES</a>
+
+
+
+</div>
+
+
+
+<p id="p">Added Dropdown Menu In Email Content And Hover</p>
+
+
+
+
+
+ 
+</body>
+
+</html>
